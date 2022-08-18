@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f56c690d-de63-4419-911d-d1edf09579d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reward-system/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DWbIHaCVXiWA4itQGT2BjVqcxl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f56c690d-de63-4419-911d-d1edf09579d0" name="Default Changelist" comment="" />
+      <created>1660817705969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660817705969</updated>
+      <workItem from="1660817707032" duration="1018000" />
+    </task>
+    <task id="LOCAL-00001" summary="develop_1 &#10;- initial commit">
+      <created>1660818237768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660818237768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="develop_1 &#10;- initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop_1 &#10;- initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1660818237260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.-7.1920.1040@0.0.1536.824" timestamp="1660818237260" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1660818239865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-7.1920.1040@0.0.1536.824" timestamp="1660818239865" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660818706185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-7.1920.1040@0.0.1536.824" timestamp="1660818706185" />
+  </component>
+</project>
