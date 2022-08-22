@@ -13,5 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::group(['prefix' => 'point', 'as' => 'point.'], function (): void {
+    Route::post('/redeem', 'App\Http\Controllers\Point\RedeemPointController@execute')->name('redeem');
+    Route::post('/reward', 'App\Http\Controllers\Point\RewardPointController@execute')->name('reward');
+});
 
