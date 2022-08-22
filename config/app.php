@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -69,7 +69,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Kuala_Lumpur',
 
     /*
     |--------------------------------------------------------------------------
@@ -208,8 +208,7 @@ return [
     |
     */
 
-    'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+    'aliases' => Facade::defaultAliases()->merge([// 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
 ];
