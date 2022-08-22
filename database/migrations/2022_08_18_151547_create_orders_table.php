@@ -9,19 +9,19 @@ use Illuminate\Support\Facades\Schema;
 /**
  * @author    Yi Wen, Tan <yiwentan301@gmail.com>
  */
-class CreateOrderHeadersTable extends Migration {
+class CreateOrdersTable extends Migration {
     /**
      * Run the migrations.
      *
      * @return void
      */
     public function up(): void {
-        Schema::create('order_headers', function (Blueprint $table) {
+        Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->integer('customer_id')->comment('Foreign key of customers table');
             $table->string('currency');
-            $table->float('total_price');
-            $table->string('status');
+            $table->decimal('total_price', 10, 2);
+            $table->string('status')->comment('Status can be PENDING or COMPLETE');
             $table->timestamps();
         });
     }
@@ -32,6 +32,6 @@ class CreateOrderHeadersTable extends Migration {
      * @return void
      */
     public function down(): void {
-        Schema::dropIfExists('order_headers');
+        Schema::dropIfExists('orders');
     }
 }

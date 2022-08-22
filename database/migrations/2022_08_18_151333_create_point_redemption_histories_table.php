@@ -18,8 +18,8 @@ class CreatePointRedemptionHistoriesTable extends Migration {
     public function up(): void {
         Schema::create('point_redemption_histories', function (Blueprint $table) {
             $table->id();
-            $table->integer('order_header_id')->comment('Foreign key of order_headers table');
-            $table->float('redeemed_points');
+            $table->integer('order_id')->comment('Foreign key of orders table');
+            $table->decimal('redeemed_points', 10, 2);
             $table->timestamps();
         });
     }

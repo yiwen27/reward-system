@@ -19,11 +19,13 @@ class CreateRewardPointsTable extends Migration {
         Schema::create('reward_points', function (Blueprint $table) {
             $table->id();
             $table->integer('customer_id')->comment('Foreign key of customers table');
-            $table->integer('order_header_id')->comment('Foreign key of order_headers table');
-            $table->float('total_points');
-            $table->float('redeemed_points');
-            $table->float('balance_points');
+            $table->integer('order_id')->comment('Foreign key of orders table');
+            $table->decimal('total_points', 10, 2);
+            $table->decimal('redeemed_points', 10, 2);
+            $table->decimal('balance_points', 10, 2);
             $table->dateTime('expiry_date');
+            $table->integer('point_redemption_history_id')->nullable()
+                  ->comment('Foreign key of point_redemption_histories table');
             $table->timestamps();
         });
     }
